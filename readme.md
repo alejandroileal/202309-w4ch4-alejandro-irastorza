@@ -27,3 +27,32 @@ Entrega también un listado de responsabilidades en el README
 - ¿Qué renderiza?
 - ¿Qúe interacciones del usuario tiene?
 - ¿Qué información recibe y desde donde?
+
+## listado de responsabilidades
+
+#### ¿Qué renderiza?
+
+**Info:** Renderiza la leyenda 'Calling'.
+**Display:** Renderiza los números que se van marcando.
+**Actions:** Renderiza el div que encasilla las acciones.
+**Action:** Renderiza los botones 'Call' y 'Hang'.
+**Keyboard:** Renderiza la lista.
+**Key:** Renderiza los botones que corresponden al teclado.
+
+#### ¿Qúe interacciones del usuario tiene?
+
+**Info:** Se ejecuta cuando el usuario presiona el botón 'Call'.
+**Display:** Cuando el usuario da click.
+**Actions:** Cuando se carga la página.
+**Action:** Cuando el usuario da click.
+**Keyboard:** Cuando se carga la página.
+**Key:** Cuando el usuario da click.
+
+#### - ¿Qué información recibe y desde donde?
+
+**Info:** El array de números marcados desde el contexto.
+**Display:** Recibe los números de teléfono desde el contexto.
+**Actions:** Recibe los componentes de la lista desde el componente action.
+**Action:** Recibe los números de teléfono y la variable boolean para determinar el display desde el contexto.
+**Keyboard:** Recibe los botones desde el componente key.
+**Key:** Recibe los números de teléfono desde el contexto.
